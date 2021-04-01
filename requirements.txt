@@ -1,0 +1,12 @@
+1. Приложение будет - Single Page Application
+2. Необходимые инструменты:
+  - Webpack (сборщик модулей, imports/exports):
+    - реализовать Babel
+    - поддержка синтаксиса SCSS
+    - Eslint
+    - 2 режима сборки проекта:
+      - dev: dev server, Eslint, SourceMaps, not minified JS & CSS
+      - prod: minified code
+  - Git
+      - Production branch
+      - Development branch
