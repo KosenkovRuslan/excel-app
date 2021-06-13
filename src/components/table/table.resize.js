@@ -5,12 +5,12 @@ export function resizeHandler($root, event) {
   const $parent = $resizer.closest('[data-type="resizable"]')
   const coords = $parent.getCoords()
   const type = $resizer.data.resize
-  const sideProp = type === 'col' ? 'bottom' : 'right'
+  // const sideProp = type === 'col' ? 'bottom' : 'right'
   let value
 
   $resizer.css({
     opacity: 1,
-    [sideProp]: '-2000px'
+    // [sideProp]: '-2000px'
   });
 
   document.onmousemove = (e) => {
